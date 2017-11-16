@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "IT IS PROTOTYPE VERSION, IF YOU HAVE ANY ISSUE, CONTACT TO US" 
 echo "yondonjamts.ganzorig@gmail.com"
-sleep 8
+sleep 3
 echo "You think Mr.Yondonjamts' awesome? [y,n]"
 read ans
 if [ "$ans" == "y" ] || [ "$ans" == "Y" ] || [ "$ans" == "yes" ] || [ "$ans" == "YES" ] || [ "$ans" == "Yes" ]; then
@@ -20,7 +20,7 @@ cmake ../
 make
 make test
 sudo make install
-cd
+cd ../../..
 cd gnuradio
 git submodule init
 git submodule --recursive update
