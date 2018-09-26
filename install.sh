@@ -34,5 +34,5 @@ sudo make install
 sudo ldconfig
 echo "Congratulations, you've installed all you need ;)"
 #else
-#echo "Try again later :D"
+#echo "Goodbye"
 #fi
