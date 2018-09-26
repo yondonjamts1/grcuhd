@@ -1,8 +1,9 @@
 #!/bin/bash
 #echo "IT IS PROTOTYPE VERSION, IF YOU HAVE ANY ISSUE, CONTACT TO US" 
-#echo "yondonjamts.ganzorig@gmail.com"
+#echo "yondonjamts@outlook.com"
+#echo "compatible on UBUNTU 16.04.5LTS"
 #sleep 3
-#echo "You think Mr.Yondonjamts' awesome? [y,n]"
+#echo "Do you wanted to install GNURadio and UHDriver? [y,n]"
 #read ans
 #if [ "$ans" == "y" ] || [ "$ans" == "Y" ] || [ "$ans" == "yes" ] || [ "$ans" == "YES" ] || [ "$ans" == "Yes" ]; then
 sudo add-apt-repository ppa:ettusresearch/uhd
