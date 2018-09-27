@@ -32,6 +32,7 @@ make
 make test
 sudo make install
 sudo ldconfig
+sudo /usr/lib/uhd/utils/uhd_images_downloader.py
 echo "Congratulations, you've installed all you need ;)"
 #else
 #echo "Goodbye"
